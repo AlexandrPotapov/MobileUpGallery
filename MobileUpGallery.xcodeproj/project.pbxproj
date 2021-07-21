@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F850BEA26A80B3500B428B3 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F850BE926A80B3500B428B3 /* SFProDisplay-Regular.ttf */; };
 		1FDE8C1726A7F8F500F58F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE8C1626A7F8F500F58F70 /* AppDelegate.swift */; };
 		1FDE8C1926A7F8F500F58F70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE8C1826A7F8F500F58F70 /* SceneDelegate.swift */; };
-		1FDE8C1B26A7F8F500F58F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE8C1A26A7F8F500F58F70 /* ViewController.swift */; };
-		1FDE8C1E26A7F8F500F58F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDE8C1C26A7F8F500F58F70 /* Main.storyboard */; };
+		1FDE8C1B26A7F8F500F58F70 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE8C1A26A7F8F500F58F70 /* AuthViewController.swift */; };
 		1FDE8C2026A7F8FA00F58F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDE8C1F26A7F8FA00F58F70 /* Assets.xcassets */; };
 		1FDE8C2326A7F8FA00F58F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDE8C2126A7F8FA00F58F70 /* LaunchScreen.storyboard */; };
+		1FDE8C2B26A7FA1B00F58F70 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDE8C2A26A7FA1B00F58F70 /* AuthViewController.storyboard */; };
+		1FDE8C2D26A7FA2800F58F70 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE8C2C26A7FA2800F58F70 /* AuthService.swift */; };
+		F0012879AF6BC8CBFAD70A55 /* Pods_MobileUpGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65CCB98C3417804F1236A3D /* Pods_MobileUpGallery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F850BE926A80B3500B428B3 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		1F850BEB26A80DDB00B428B3 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		1F850BEC26A80DE900B428B3 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		1FDE8C1326A7F8F500F58F70 /* MobileUpGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileUpGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDE8C1626A7F8F500F58F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FDE8C1826A7F8F500F58F70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FDE8C1A26A7F8F500F58F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FDE8C1D26A7F8F500F58F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FDE8C1A26A7F8F500F58F70 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		1FDE8C1F26A7F8FA00F58F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDE8C2226A7F8FA00F58F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FDE8C2426A7F8FA00F58F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDE8C2A26A7FA1B00F58F70 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		1FDE8C2C26A7FA2800F58F70 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3F74F7D451E34A134D907AA8 /* Pods-MobileUpGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileUpGallery.debug.xcconfig"; path = "Target Support Files/Pods-MobileUpGallery/Pods-MobileUpGallery.debug.xcconfig"; sourceTree = "<group>"; };
+		44DA1EFD7FC89E7F1884FD45 /* Pods-MobileUpGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileUpGallery.release.xcconfig"; path = "Target Support Files/Pods-MobileUpGallery/Pods-MobileUpGallery.release.xcconfig"; sourceTree = "<group>"; };
+		B65CCB98C3417804F1236A3D /* Pods_MobileUpGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileUpGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0012879AF6BC8CBFAD70A55 /* Pods_MobileUpGallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2428C526A7FD0100F96DE0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1FDE8C2C26A7FA2800F58F70 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F2428C626A7FD1600F96DE0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1FDE8C1A26A7F8F500F58F70 /* AuthViewController.swift */,
+				1FDE8C2A26A7FA1B00F58F70 /* AuthViewController.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1F2428C726A7FE5000F96DE0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1F850BE926A80B3500B428B3 /* SFProDisplay-Regular.ttf */,
+				1F850BEB26A80DDB00B428B3 /* SFProDisplay-Medium.ttf */,
+				1F850BEC26A80DE900B428B3 /* SFProDisplay-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		1FDE8C0A26A7F8F500F58F70 = {
 			isa = PBXGroup;
 			children = (
 				1FDE8C1526A7F8F500F58F70 /* MobileUpGallery */,
 				1FDE8C1426A7F8F500F58F70 /* Products */,
+				73C0D025C0579D3C0E812091 /* Pods */,
+				AD3AA4EACFB8EBF000B6A8DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,33 @@
 		1FDE8C1526A7F8F500F58F70 /* MobileUpGallery */ = {
 			isa = PBXGroup;
 			children = (
+				1F2428C726A7FE5000F96DE0 /* Font */,
 				1FDE8C1626A7F8F500F58F70 /* AppDelegate.swift */,
 				1FDE8C1826A7F8F500F58F70 /* SceneDelegate.swift */,
-				1FDE8C1A26A7F8F500F58F70 /* ViewController.swift */,
-				1FDE8C1C26A7F8F500F58F70 /* Main.storyboard */,
+				1F2428C626A7FD1600F96DE0 /* Auth */,
+				1F2428C526A7FD0100F96DE0 /* Services */,
 				1FDE8C1F26A7F8FA00F58F70 /* Assets.xcassets */,
 				1FDE8C2126A7F8FA00F58F70 /* LaunchScreen.storyboard */,
 				1FDE8C2426A7F8FA00F58F70 /* Info.plist */,
 			);
 			path = MobileUpGallery;
+			sourceTree = "<group>";
+		};
+		73C0D025C0579D3C0E812091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F74F7D451E34A134D907AA8 /* Pods-MobileUpGallery.debug.xcconfig */,
+				44DA1EFD7FC89E7F1884FD45 /* Pods-MobileUpGallery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD3AA4EACFB8EBF000B6A8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65CCB98C3417804F1236A3D /* Pods_MobileUpGallery.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FDE8C2726A7F8FA00F58F70 /* Build configuration list for PBXNativeTarget "MobileUpGallery" */;
 			buildPhases = (
+				BFFA76CFC805A19B733D265B /* [CP] Check Pods Manifest.lock */,
 				1FDE8C0F26A7F8F500F58F70 /* Sources */,
 				1FDE8C1026A7F8F500F58F70 /* Frameworks */,
 				1FDE8C1126A7F8F500F58F70 /* Resources */,
+				50E860674A4CA62F7DAF5BB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,35 +185,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FDE8C2326A7F8FA00F58F70 /* LaunchScreen.storyboard in Resources */,
+				1F850BEA26A80B3500B428B3 /* SFProDisplay-Regular.ttf in Resources */,
+				1FDE8C2B26A7FA1B00F58F70 /* AuthViewController.storyboard in Resources */,
 				1FDE8C2026A7F8FA00F58F70 /* Assets.xcassets in Resources */,
-				1FDE8C1E26A7F8F500F58F70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50E860674A4CA62F7DAF5BB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileUpGallery/Pods-MobileUpGallery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileUpGallery/Pods-MobileUpGallery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileUpGallery/Pods-MobileUpGallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFFA76CFC805A19B733D265B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileUpGallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FDE8C0F26A7F8F500F58F70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FDE8C1B26A7F8F500F58F70 /* ViewController.swift in Sources */,
+				1FDE8C1B26A7F8F500F58F70 /* AuthViewController.swift in Sources */,
 				1FDE8C1726A7F8F500F58F70 /* AppDelegate.swift in Sources */,
 				1FDE8C1926A7F8F500F58F70 /* SceneDelegate.swift in Sources */,
+				1FDE8C2D26A7FA2800F58F70 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FDE8C1C26A7F8F500F58F70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FDE8C1D26A7F8F500F58F70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1FDE8C2126A7F8FA00F58F70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +379,14 @@
 		};
 		1FDE8C2826A7F8FA00F58F70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F74F7D451E34A134D907AA8 /* Pods-MobileUpGallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR249V2BPM;
 				INFOPLIST_FILE = MobileUpGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +394,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lancelap.MobileUpGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1FDE8C2926A7F8FA00F58F70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DA1EFD7FC89E7F1884FD45 /* Pods-MobileUpGallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR249V2BPM;
 				INFOPLIST_FILE = MobileUpGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lancelap.MobileUpGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
